@@ -1,1 +1,1 @@
-Proyecto de notificaciones por SMS, EMAIL Y PUSH, aplicando arquitectura hexagonal
+Hexagonal Architecture with Java and Spring
