@@ -2,7 +2,7 @@ Hexagonal Architecture Example with Java & Spring
 
 This project is an example of Hexagonal Architecture with Java and Spring, demonstrating how to structure a web application in a maintainable and decoupled way.
 
--MAIN COMPONENTES-
+-MAIN COMPONENTS-
 
 Domain Objects
 - Pure domain entities, free from external dependencies, that encapsulate business state and behavior.
