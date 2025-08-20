@@ -11,15 +11,15 @@ Use Cases
 - Classes representing specific use cases (e.g., SendMoneyUseCase) containing business logic but without external dependencies.
 
 Input and Output Ports
-Interfaces located in the core of the application:
+- Interfaces located in the core of the application:
 
-Input Ports: defined to be invoked by incoming adapters (like web controllers).
+- Input Ports: defined to be invoked by incoming adapters (like web controllers).
 
-Output Ports: interfaces for domain interaction with the outside world, such as repositories or notification services.
+- Output Ports: interfaces for domain interaction with the outside world, such as repositories or notification services.
 
 Adapters
 - Concrete implementations that connect the outside world to the domain:
 
-Incoming adapters (“driving adapters”): web interfaces that call the input ports.
+- Incoming adapters (“driving adapters”): web interfaces that call the input ports.
 
-Outgoing adapters: for persistence (e.g., JPA) that implement the output ports.
+- Outgoing adapters: for persistence (e.g., JPA) that implement the output ports.
